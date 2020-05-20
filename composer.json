@@ -1,14 +1,14 @@
 {
-    "name": "jxlwqq/wang-editor2",
+    "name": "wptomo/wang-editor2",
     "description": "wang-editor2 for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/jxlwqq/wangEditor2",
+    "homepage": "https://github.com/WPTomo/wangEditor2",
     "license": "MIT",
     "authors": [
         {
-            "name": "jxlwqq",
-            "email": "jxlwqq@gmail.com"
+            "name": "wptomo",
+            "email": "wptomo1106@gmail.com"
         }
     ],
     "require": {
@@ -20,15 +20,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Jxlwqq\\WangEditor2\\": "src/"
+            "Wptomo\\WangEditor2\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jxlwqq\\WangEditor2\\WangEditor2ServiceProvider"
+                "Wptomo\\WangEditor2\\WangEditor2ServiceProvider"
             ]
-
         }
     }
 }
