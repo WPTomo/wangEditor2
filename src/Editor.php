@@ -1,6 +1,6 @@
 <?php
 
-namespace Jxlwqq\WangEditor2;
+namespace Wptomo\WangEditor2;
 
 use Encore\Admin\Form\Field;
 
